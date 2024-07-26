@@ -1,1 +1,32 @@
-@import './base.css';
+@import './style.css';
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    max-width: 1920px;
+ padding: 0 120px 0 120px;
+}
+.const-part2>span>p {
+    width: 810px;
+    color: var(--gray-700, #808080);
+    text-align: center;
+
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.const-part2 {
+    color: var(--gray-900, #1E212C);
+    text-align: center;
+    margin-top: 150px;
+    /* h1 */
+    font-family: Ubuntu;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 59.8px */
+}
