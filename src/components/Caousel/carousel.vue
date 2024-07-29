@@ -1,6 +1,6 @@
 <template>
     <div class="carousel-img">
-        <div class="text-carousel">
+        <div class="text-carousel container">
             <span class="carousel-h1">
                 <h1 style="display: flex; align-items: center; gap: 5px;">CREATE <p
                         style="color: #FF5A30; font-size: 90px;">X</p>
@@ -29,9 +29,7 @@ export default {
 </script>
 <style scoped>
 .text-carousel {
-    position: absolute;
-    top: 40%;
-    left: 15%;
+    padding-top: 270px;
 }
 
 .carousel-btns {
@@ -82,20 +80,11 @@ export default {
 
 .carousel-img {
     background-image: url(../../assets//images/bg-image.png);
-    height: 788px;
+    height: 988px;
 }
 
-.carousel-h1 {
-    display: flex;
-    flex-direction: column;
+.carousel-h1>h1 {
     color: #fff;
-
-    font-family: Ubuntu;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 130%;
-    letter-spacing: 1px;
 }
 
 .carousel-p {
@@ -106,6 +95,6 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    margin-top: 24px;
+    padding-top: 24px;
 }
 </style>

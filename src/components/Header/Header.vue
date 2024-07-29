@@ -46,12 +46,13 @@ export default {
     justify-content: space-between;
     align-items: center;
     gap: 36px;
+ 
 }
 .nav-main {
     display: flex;
+    justify-content: space-between;
+    padding: 15px;
     align-items: center;
-    gap: 172px;
-    margin: 30px 0 30px 0;
 }
 
 li {
@@ -67,12 +68,13 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
+
 }
 
 .phone-chat {
     display: flex;
     align-items: center;
-    gap: 10px;
+
 }
 </style>
